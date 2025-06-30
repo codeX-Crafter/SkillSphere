@@ -2,7 +2,7 @@ import React from "react";
 
 import HeadSub from "../components/HeadSub";
 import HeadSubh from "../components/HeadSubh";
-import Button from "../components/button";
+import Button from "../components/Button";
 import Features from "../components/Features";
 import DomainCard from "../components/DomainCard";
 import FAQItem from "../components/FAQItem";
