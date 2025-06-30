@@ -6,7 +6,8 @@ import Button from "../components/button";
 import Features from "../components/Features";
 import DomainCard from "../components/DomainCard";
 import FAQItem from "../components/FAQItem";
-import SocietyCard from "../components/SocietyCard";
+import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 import herofront from "../assets/images/herofront.png";
 import journey from "../assets/images/journey.png";
@@ -16,7 +17,7 @@ import spiral from "../assets/images/spiral-bound-booklet.png";
 
 function Home() {
   return (
-    <div className="flex flex-col items-center justify-center  mt-20 gap-16">
+    <div className="flex flex-col items-center justify-center  mt-14 gap-16">
       {/* Hero Section */}
       <div className="flex flex-col md:flex-row  items-center justify-center gap-10 w-full max-w-7xl">
         <div>
@@ -34,8 +35,12 @@ function Home() {
             subSp2="cohorts, and take the first step toward success."
           />
           <div className="flex flex-col md:flex-row justify-center items-center gap-3 w-full md:w-auto">
-            <Button text="Browse Resources" />
-            <Button text="Explore Cohorts" />
+            <HashLink smooth to="/#domains">
+              <Button text="Browse Resources" />
+            </HashLink>
+            <Link to="/Cohorts">
+              <Button text="Explore Cohorts" />
+            </Link>
           </div>
         </div>
       </div>
@@ -76,29 +81,51 @@ function Home() {
       </div>
 
       {/*Domains */}
-      <div className="w-full flex flex-col items-center gap-6 mt-6">
+      <div
+        id="domains"
+        className="w-full flex flex-col items-center gap-6 mt-6"
+      >
         <HeadSubh
           headSp1="Featured Domains"
           subSp1="Discover tailored learning paths designed to guide you "
           subSp2="step by step toward success."
         />
         <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-6 place-items-center">
-          <DomainCard domainName="DSA" bgClass="bg-redd" />
-          <DomainCard domainName="WEB DEVELOPMENT" bgClass="bg-yell" />
-          <DomainCard domainName="APP DEVELOPMENT" bgClass="bg-tealish" />
-          <DomainCard domainName="UI/UX" bgClass="bg-maroon" />
-          <DomainCard
-            domainName="COMPETITIVE PROGRAMMING"
-            bgClass="bg-maroon"
-          />
-          <DomainCard domainName="AI/ML" bgClass="bg-tealish" />
-          <DomainCard domainName="AR/VR" bgClass="bg-yell" />
-          <DomainCard domainName="CYBERSECURITY" bgClass="bg-redd" />
+          <Link to="/DSA">
+            <DomainCard domainName="DSA" bgClass="bg-redd" />
+          </Link>
+          <Link to="/WebDevelopment">
+            <DomainCard domainName="WEB DEVELOPMENT" bgClass="bg-yell" />
+          </Link>
+          <Link to="/AppDevelopment">
+            <DomainCard domainName="APP DEVELOPMENT" bgClass="bg-tealish" />
+          </Link>
+          <Link to="/UIUX">
+            <DomainCard domainName="UI/UX" bgClass="bg-maroon" />
+          </Link>
+          <Link to="/CompetitiveProgramming">
+            <DomainCard
+              domainName="COMPETITIVE PROGRAMMING"
+              bgClass="bg-maroon"
+            />
+          </Link>
+          <Link to="/AIML">
+            <DomainCard domainName="AI/ML" bgClass="bg-tealish" />
+          </Link>
+          <Link to="/ARVR">
+            <DomainCard domainName="AR/VR" bgClass="bg-yell" />
+          </Link>
+          <Link to="/Cybersecurity">
+            <DomainCard domainName="CYBERSECURITY" bgClass="bg-redd" />
+          </Link>
         </div>
       </div>
 
       {/* FAQs? */}
-      <div className="w-full flex flex-col items-center gap-4 mt-6">
+      <div
+        id="faq"
+        className="w-full flex flex-col items-center gap-4 mt-6 mb-8"
+      >
         <HeadSubh
           headSp1="Frequently Asked Questions"
           subSp1="Your questions, Simplified"

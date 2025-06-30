@@ -2,7 +2,7 @@ import React from "react";
 
 function Features({ image, bgColor, head, subHead }) {
   return (
-    <div className="w-[280px] sm:w-[300px] flex items-center gap-3 rounded-lg bg-[hsl(220,100%,94%)] p-2">
+    <div className="w-[280px] sm:w-[300px] flex items-center gap-3 rounded-lg bg-lblue p-2">
       {/* Icon Circle */}
       <div
         className={`w-[38px] h-[38px] rounded-full flex justify-center items-center ${bgColor}`}

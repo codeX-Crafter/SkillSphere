@@ -1,4 +1,4 @@
-import { Instagram, Linkedin } from "lucide-react";
+import { Github, Instagram, Linkedin } from "lucide-react";
 import logo from "../assets/images/logo.jpg";
 
 export default function Footer() {
@@ -27,22 +27,22 @@ export default function Footer() {
             <h3 className="font-semibold mb-2">CONTACT US</h3>
             <ul className="space-y-1 text-sm">
               <li>Phone: +91 8448362122</li>
-              <li>SkillSphere@gmail.com</li>
-              <li>M - 68, Guru Harkishan Nagar, New Delhi - 110087</li>
+              <li>skillSphereee@gmail.com</li>
+              <li>Rohini, New Delhi - 110085</li>
             </ul>
           </div>
         </div>
 
         {/* Section 2 */}
         <div className="flex flex-col">
-          <h3 className="font-semibold mb-2">OTHER LINKS</h3>
+          {/* <h3 className="font-semibold mb-2">OTHER LINKS</h3> */}
           <ul className="space-y-1 text-sm">
-            <li>FAQS</li>
+            {/* <li>FAQS</li>
             <li>Events</li>
             <li>Success stories</li>
             <li>Privacy Policy</li>
             <li>Terms & Conditions</li>
-            <li>Contact Us</li>
+            <li>Contact Us</li> */}
           </ul>
         </div>
 
@@ -52,11 +52,12 @@ export default function Footer() {
           <div className="flex items-center gap-4 text-xl">
             <Instagram />
             <Linkedin />
+            <Github />
           </div>
           <ul className="space-y-1 text-sm">
             <li>Collaborate with SkillSphere!</li>
             <li>Reach out to us at -</li>
-            <li>SkillSphere@gmail.com</li>
+            <li>SkillSphereee@gmail.com</li>
           </ul>
         </div>
       </div>
