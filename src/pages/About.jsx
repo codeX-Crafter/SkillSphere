@@ -87,7 +87,7 @@ function About() {
               Register as a mentor via your society’s form — and guide someone
               like you.
             </li>
-            <li>
+            {/* <li>
               Know code? Raise a PR on the
               <a
                 href="https://github.com/codeX-Crafter/SkillSphere"
@@ -98,9 +98,9 @@ function About() {
                 GitHub repo
               </a>
               .
-            </li>
+            </li> */}
             <li>
-              Or just drop a mail at
+              Or just drop a mail at :
               <a
                 href="mailto:skillsphereee@gmail.com"
                 className="text-purple-400 underline ml-1"

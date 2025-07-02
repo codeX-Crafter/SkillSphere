@@ -6,7 +6,7 @@ export default function FAQItem({ question, answer }) {
 
   return (
     <div
-      className="bg-[hsl(220,100%,94%)]  w-[85vw] rounded-xl p-5 cursor-pointer transition-all duration-300"
+      className="bg-lblue  w-[85vw] rounded-xl p-5 cursor-pointer transition-all duration-300"
       onClick={() => setIsOpen(!isOpen)}
     >
       <div className="flex justify-between items-center">

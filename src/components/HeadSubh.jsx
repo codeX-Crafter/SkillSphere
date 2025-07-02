@@ -1,6 +1,6 @@
 export default function HeroText({ headSp1, headSp2, subSp1, subSp2 }) {
   return (
-    <div className="flex flex-col justify-center items-center gap-3 px-5">
+    <div className="flex flex-col justify-center items-center gap-3 px-8">
       <h1 className="text-center font-rubik font-bold text-2xl sm:text-3xl">
         {headSp1}
         <span className="hidden sm:inline">

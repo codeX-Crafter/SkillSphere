@@ -26,8 +26,10 @@ export default function Footer() {
           <div>
             <h3 className="font-semibold mb-2">CONTACT US</h3>
             <ul className="space-y-1 text-sm">
-              <li>Phone: +91 8448362122</li>
-              <li>skillSphereee@gmail.com</li>
+              {/* <li>Phone: +91 8448362122</li> */}
+              <a href="mailto:skillsphereee@gmail.com">
+                <li>skillsphereee@gmail.com</li>
+              </a>
               <li>Rohini, New Delhi - 110085</li>
             </ul>
           </div>
@@ -50,14 +52,30 @@ export default function Footer() {
         <div className="flex flex-col gap-4">
           <h3 className="font-semibold">SOCIALS</h3>
           <div className="flex items-center gap-4 text-xl">
-            <Instagram />
-            <Linkedin />
-            <Github />
+            <a
+              href="https://www.instagram.com/skilllsphereee/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {" "}
+              <Instagram />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/harshita-bansal-65ba40327/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Linkedin />
+            </a>
+            {/* <Github /> */}
           </div>
           <ul className="space-y-1 text-sm">
-            <li>Collaborate with SkillSphere!</li>
+            {/* <li>Collaborate with SkillSphere!</li> */}
             <li>Reach out to us at -</li>
-            <li>SkillSphereee@gmail.com</li>
+            <a href="mailto:skillsphereee@gmail.com" className="mt-2">
+              {" "}
+              <li>SkillSphereee@gmail.com</li>
+            </a>
           </ul>
         </div>
       </div>

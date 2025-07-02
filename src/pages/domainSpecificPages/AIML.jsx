@@ -20,6 +20,9 @@ function AIML() {
       />
       <DomainNav navItems={navItems} />
       {/* Section Components */}
+      <div className="m-auto flex items-center justify-center p-16">
+        <h4 className="font-rubik">Coming Soon...</h4>
+      </div>
     </div>
   );
 }

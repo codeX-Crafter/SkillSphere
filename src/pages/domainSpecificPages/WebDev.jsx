@@ -5,7 +5,7 @@ import DomainNav from "../../components/DomainNav";
 
 import WebDevRoadmaps from "../../sections/domainWiseSections/webres/WebDevRoadmaps";
 import Ytchannels from "../../sections/domainWiseSections/webres/Ytchannels";
-import DeveloperTools from "../../sections/domainWiseSections/webres/developerTools";
+import DeveloperTools from "../../sections/domainWiseSections/webres/DeveloperTools";
 import MiscellaneousWebDev from "../../sections/domainWiseSections/webres/MiscellaneousWebDev";
 
 function WebDev() {

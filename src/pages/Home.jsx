@@ -48,6 +48,7 @@ function Home() {
       {/* Why Choose Us Section */}
       <div className="w-full flex flex-col items-center gap-6">
         <HeadSubh
+          className="p-16"
           headSp1="Why choose us?"
           subSp1="No more scattered content — just structured, centralized "
           subSp2="resources to guide your learning journey."
@@ -127,6 +128,7 @@ function Home() {
         className="w-full flex flex-col items-center gap-4 mt-6 mb-8"
       >
         <HeadSubh
+          className="p-16"
           headSp1="Frequently Asked Questions"
           subSp1="Your questions, Simplified"
         />

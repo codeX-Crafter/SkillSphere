@@ -2,13 +2,17 @@ import React from "react";
 import DomainTop from "../../sections/domainWiseSections/DomainTop";
 import cpimg from "../../assets/images/domainHeroSecImages/cpimg.png";
 import DomainNav from "../../components/DomainNav";
+import Roadmaps from "../../sections/domainWiseSections/cpres/Roadmaps";
+import Practice from "../../sections/domainWiseSections/cpres/Practice";
+import YtChannels from "../../sections/domainWiseSections/cpres/YtChannels";
+import Miscellaneous from "../../sections/domainWiseSections/cpres/Miscellaneous";
 
 function CompetitiveProgramming() {
   const navItems = [
-    "Roadmaps",
-    "Practice",
-    "Youtube Channels",
-    "Miscellaneous",
+    { name: "Roadmaps", id: "roadmaps" },
+    { name: "Practice", id: "practice" },
+    { name: "YouTube Channels", id: "youtube-channels" },
+    { name: "Miscellaneous", id: "miscellaneous" },
   ];
 
   return (
@@ -20,6 +24,10 @@ function CompetitiveProgramming() {
       />
       <DomainNav navItems={navItems} />
       {/* Section Components */}
+      <Roadmaps />
+      <Practice />
+      <YtChannels />
+      <Miscellaneous />
     </div>
   );
 }

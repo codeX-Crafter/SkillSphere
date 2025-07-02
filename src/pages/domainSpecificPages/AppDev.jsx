@@ -2,13 +2,16 @@ import React from "react";
 import DomainTop from "../../sections/domainWiseSections/DomainTop";
 import appdevimg from "../../assets/images/domainHeroSecImages/appdevimg.png";
 import DomainNav from "../../components/DomainNav";
-
+import AppDevRoadmaps from "../../sections/domainWiseSections/appdevres/AppDevRoadmaps";
+import Ytchannels from "../../sections/domainWiseSections/appdevres/Ytchannels";
+import MiscellaneousAppDev from "../../sections/domainWiseSections/appdevres/MiscellaneousAppDev";
+import DeveloperTools from "../../sections/domainWiseSections/appdevres/DeveloperTools";
 function AppDev() {
   const navItems = [
-    "Roadmaps",
-    "Practice",
-    "Youtube Channels",
-    "Miscellaneous",
+    { name: "Roadmaps", id: "app-dev-roadmaps" },
+    { name: "YouTube Channels", id: "app-dev-ytchannels" },
+    { name: "Miscellaneous", id: "app-dev-miscellaneous" },
+    { name: "Developer Tools", id: "app-dev-developer-tools" },
   ];
 
   return (
@@ -20,6 +23,10 @@ function AppDev() {
       />
       <DomainNav navItems={navItems} />
       {/* Section Components */}
+      <AppDevRoadmaps />
+      <Ytchannels />
+      <MiscellaneousAppDev />
+      <DeveloperTools />
     </div>
   );
 }

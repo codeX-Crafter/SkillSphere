@@ -7,7 +7,7 @@ function RoadmapsXsheets() {
       title: "Striver’s A2Z DSA Sheet",
       desc: "Structured progression from basics to advanced with video tutorials, ideal for interviews.",
       link: "https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2",
-      tags: ["Beginner Friendly", "Structured", "Most Popular"],
+      tags: ["Structured", "Most Popular"],
     },
     {
       title: "Love Babbar DSA playlist",

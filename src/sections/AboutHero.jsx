@@ -24,7 +24,7 @@ function AboutHero() {
           {/* CTA */}
           <div className="mt-10">
             <button className="border border-white px-6 py-2 rounded hover:bg-white hover:text-black transition-all duration-200">
-              Explore the Map →
+              Explore the Map
             </button>
           </div>
         </div>

@@ -5,10 +5,10 @@ import DomainNav from "../../components/DomainNav";
 
 function Cybersecurity() {
   const navItems = [
-    "Roadmaps",
-    "Practice",
-    "Youtube Channels",
-    "Miscellaneous",
+    { name: "Roadmaps", id: "roadmaps" },
+    { name: "Practice", id: "practice" },
+    { name: "YouTube Channels", id: "youtube-channels" },
+    { name: "Miscellaneous", id: "miscellaneous" },
   ];
 
   return (
@@ -20,6 +20,9 @@ function Cybersecurity() {
       />
       <DomainNav navItems={navItems} />
       {/* Section Components */}
+      <div className="m-auto flex items-center justify-center p-16">
+        <h4 className="font-rubik">Coming Soon...</h4>
+      </div>
     </div>
   );
 }
