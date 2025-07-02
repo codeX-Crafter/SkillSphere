@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../assets/images/logo.jpg";
+import { Link } from "react-router-dom";
 
 function AboutHero() {
   return (
@@ -21,11 +22,13 @@ function AboutHero() {
           <p className="font-semibold tracking-wide text-gray-300 mt-6">
             Welcome to the Dino side.
           </p>
-          {/* CTA */}
+          CTA
           <div className="mt-10">
-            <button className="border border-white px-6 py-2 rounded hover:bg-white hover:text-black transition-all duration-200">
-              Explore the Map
-            </button>
+            <Link to="/">
+              <button className="border border-white px-6 py-2 rounded hover:bg-white hover:text-black transition-all duration-200">
+                Explore the Map
+              </button>
+            </Link>
           </div>
         </div>
       </div>
