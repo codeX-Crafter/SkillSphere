@@ -4,16 +4,16 @@ import webdevimg from "../../assets/images/domainHeroSecImages/webdevimg.png";
 import DomainNav from "../../components/DomainNav";
 
 import WebDevRoadmaps from "../../sections/domainWiseSections/webres/WebDevRoadmaps";
-// import DeveloperTools from "../../sections/domainWiseSections/webres/DeveloperTools";
-// import MiscellaneousWeb from "../../sections/domainWiseSections/webres/MiscellaneousWeb";
 import Ytchannels from "../../sections/domainWiseSections/webres/Ytchannels";
+import DeveloperTools from "../../sections/domainWiseSections/webres/developerTools";
+import MiscellaneousWebDev from "../../sections/domainWiseSections/webres/MiscellaneousWebDev";
 
 function WebDev() {
   const navItemss = [
-    "Roadmaps",
-    "Youtube Channels",
-    "Developer Tools",
-    "Miscellaneous",
+    { name: "Roadmaps", id: "web-dev-roadmaps" },
+    { name: "YouTube Channels", id: "web-dev-ytchannels" },
+    { name: "Miscellaneous", id: "web-dev-miscellaneous" },
+    { name: "Developer Tools", id: "web-dev-developer-tools" },
   ];
 
   return (
@@ -26,6 +26,8 @@ function WebDev() {
       <DomainNav navItems={navItemss} />
       <WebDevRoadmaps />
       <Ytchannels />
+      <MiscellaneousWebDev />
+      <DeveloperTools />
     </div>
   );
 }

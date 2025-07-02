@@ -16,13 +16,22 @@ function Ytchannels() {
       link: "https://www.youtube.com/@AkshaySaini",
       tags: ["JavaScript", "Concepts", "In-depth"],
     },
+    {
+      title: "freeCodeCamp.org",
+      desc: "Full-length tutorials, HTML, CSS, JavaScript, React and more.",
+      link: "https://www.youtube.com/c/Freecodecamp",
+      tags: ["JavaScript", "Concepts", "In-depth"],
+    },
+
+    {
+      title: "Chai Aur Code",
+      desc: "	Frontend and backend development explained in Hindi",
+      link: "https://www.youtube.com/@chaiaurcode",
+      tags: ["JavaScript", "Concepts", "In-depth"],
+    },
   ];
 
-  return (
-    <section id="web-dev-ytchannels">
-      <ResourcesSection resources={ytResources} />
-    </section>
-  );
+  return <ResourcesSection id="web-dev-ytchannels" resources={ytResources} />;
 }
 
 export default Ytchannels;

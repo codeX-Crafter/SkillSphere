@@ -7,7 +7,7 @@ function WebDevRoadmaps() {
       title: "Frontend Developer Roadmap - roadmap.sh",
       desc: "A detailed visual guide to frontend development tools, topics, and progression.",
       link: "https://roadmap.sh/frontend",
-      tags: ["Beginner Friendly", "Visual Guide", "Interactive"],
+      tags: ["Visual Guide", "Interactive"],
     },
     {
       title: "Backend Developer Roadmap - roadmap.sh",
@@ -16,7 +16,7 @@ function WebDevRoadmaps() {
       tags: ["Node.js", "Backend", "Databases"],
     },
     {
-      title: "Full Stack Developer Roadmap",
+      title: "Full Stack Developer Roadmap - roadmap.sh",
       desc: "Comprehensive roadmap combining frontend and backend skills.",
       link: "https://roadmap.sh/full-stack",
       tags: ["Full Stack", "Advanced", "Roadmap"],
@@ -30,9 +30,7 @@ function WebDevRoadmaps() {
   ];
 
   return (
-    <section id="web-dev-roadmaps">
-      <ResourcesSection resources={roadmapResources} />
-    </section>
+    <ResourcesSection id="web-dev-roadmaps" resources={roadmapResources} />
   );
 }
 
