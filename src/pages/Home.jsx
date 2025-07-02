@@ -10,10 +10,10 @@ import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 
 import herofront from "../assets/images/herofront.png";
-import journey from "../assets/images/journey.png";
-import learning from "../assets/images/learning.png";
-import tuition from "../assets/images/tuition.png";
-import spiral from "../assets/images/spiral-bound-booklet.png";
+import journey from "../assets/images/featuresIcons/journey.png";
+import learning from "../assets/images/featuresIcons/learning.png";
+import tuition from "../assets/images/featuresIcons/tuition.png";
+import spiral from "../assets/images/featuresIcons/spiral-bound-booklet.png";
 
 function Home() {
   return (

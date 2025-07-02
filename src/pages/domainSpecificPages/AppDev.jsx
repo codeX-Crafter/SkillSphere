@@ -1,7 +1,7 @@
 import React from "react";
-import DomainTop from "../sections/DomainTop";
-import appdevimg from "../assets/images/appdevimg.png";
-import DomainNav from "../components/DomainNav";
+import DomainTop from "../../sections/domainWiseSections/DomainTop";
+import appdevimg from "../../assets/images/domainHeroSecImages/appdevimg.png";
+import DomainNav from "../../components/DomainNav";
 
 function AppDev() {
   const navItems = [

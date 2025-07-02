@@ -11,11 +11,7 @@ function MiscellaneousDSA() {
     },
   ];
 
-  return (
-    <section id="miscellaneous">
-      <ResourcesSection resources={miscResources} />
-    </section>
-  );
+  return <ResourcesSection id="miscellaneous" resources={miscResources} />;
 }
 
 export default MiscellaneousDSA;

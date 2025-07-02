@@ -1,7 +1,7 @@
 import React from "react";
-import DomainTop from "../sections/DomainTop";
-import uiuximg from "../assets/images/uiuximg.png";
-import DomainNav from "../components/DomainNav";
+import DomainTop from "../../sections/domainWiseSections/DomainTop";
+import uiuximg from "../../assets/images/domainHeroSecImages/uiuximg.png";
+import DomainNav from "../../components/DomainNav";
 
 function UIUX() {
   const navItems = [

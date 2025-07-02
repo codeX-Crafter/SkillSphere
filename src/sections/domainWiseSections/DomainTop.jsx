@@ -1,6 +1,6 @@
 import React from "react";
 
-import HeadSub from "../components/HeadSub";
+import HeadSub from "../../components/HeadSub";
 
 function DomainTop({ domain, description, png }) {
   return (

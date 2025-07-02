@@ -1,7 +1,7 @@
 import React from "react";
-import DomainTop from "../sections/DomainTop";
-import arvrimg from "../assets/images/arvrimg.png";
-import DomainNav from "../components/DomainNav";
+import DomainTop from "../../sections/domainWiseSections/DomainTop";
+import arvrimg from "../../assets/images/domainHeroSecImages/arvrimg.png";
+import DomainNav from "../../components/DomainNav";
 
 function ARVR() {
   const navItems = [

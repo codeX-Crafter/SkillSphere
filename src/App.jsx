@@ -6,14 +6,15 @@ import ScrollToTop from "./components/ScrollToTop";
 import Home from "./pages/Home";
 import Cohorts from "./pages/Cohorts";
 import About from "./pages/About";
-import DSA from "./pages/DSA";
-import WebDev from "./pages/WebDev";
-import AppDev from "./pages/AppDev";
-import UIUX from "./pages/UIUX";
-import AIML from "./pages/AIML";
-import ARVR from "./pages/ARVR";
-import CompetitiveProgramming from "./pages/CompetitiveProgramming";
-import Cybersecurity from "./pages/Cybersecurity";
+import DSA from "./pages/domainSpecificPages/DSA";
+import WebDev from "./pages/domainSpecificPages/WebDev";
+import AppDev from "./pages/domainSpecificPages/AppDev";
+import UIUX from "./pages/domainSpecificPages/UIUX";
+import AIML from "./pages/domainSpecificPages/AIML";
+import ARVR from "./pages/domainSpecificPages/ARVR";
+import CompetitiveProgramming from "./pages/domainSpecificPages/CompetitiveProgramming";
+import Cybersecurity from "./pages/domainSpecificPages/Cybersecurity";
+// import NotFound from "./pages/NotFound"; // Uncomment if you have a NotFound
 
 export default function App() {
   return (

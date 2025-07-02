@@ -36,9 +36,7 @@ function YoutubeChannels() {
   ];
 
   return (
-    <section id="youtube-channels">
-      <ResourcesSection resources={youtubeResources} />
-    </section>
+    <ResourcesSection id="youtube-channels" resources={youtubeResources} />
   );
 }
 

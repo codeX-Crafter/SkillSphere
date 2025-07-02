@@ -1,7 +1,7 @@
 import React from "react";
-import DomainTop from "../sections/DomainTop";
-import cpimg from "../assets/images/cpimg.png";
-import DomainNav from "../components/DomainNav";
+import DomainTop from "../../sections/domainWiseSections/DomainTop";
+import cpimg from "../../assets/images/domainHeroSecImages/cpimg.png";
+import DomainNav from "../../components/DomainNav";
 
 function CompetitiveProgramming() {
   const navItems = [

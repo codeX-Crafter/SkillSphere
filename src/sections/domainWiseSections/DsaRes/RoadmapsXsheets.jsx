@@ -33,7 +33,7 @@ function RoadmapsXsheets() {
       link: "https://learnyard.com/practice/dsa",
       tags: ["Balanced", "FAANG", "Leetcode"],
     },
-    ,
+
     {
       title: "roadmap.sh DSA Roadmap ",
       desc: "Interactive DSA learning roadmap from basics to advanced concepts.",
@@ -42,11 +42,7 @@ function RoadmapsXsheets() {
     },
   ];
 
-  return (
-    <section id="roadmaps">
-      <ResourcesSection resources={roadmapResources} />
-    </section>
-  );
+  return <ResourcesSection id="roadmaps" resources={roadmapResources} />;
 }
 
 export default RoadmapsXsheets;

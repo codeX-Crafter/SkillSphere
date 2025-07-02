@@ -1,7 +1,7 @@
 import React from "react";
-import DomainTop from "../sections/DomainTop";
-import cyberimg from "../assets/images/cyberimg.png";
-import DomainNav from "../components/DomainNav";
+import DomainTop from "../../sections/domainWiseSections/DomainTop";
+import cyberimg from "../../assets/images/domainHeroSecImages/cyberimg.png";
+import DomainNav from "../../components/DomainNav";
 
 function Cybersecurity() {
   const navItems = [

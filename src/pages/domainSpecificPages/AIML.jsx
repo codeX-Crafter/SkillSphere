@@ -1,7 +1,7 @@
 import React from "react";
-import DomainTop from "../sections/DomainTop";
-import aimlimg from "../assets/images/aimlimg.png";
-import DomainNav from "../components/DomainNav";
+import DomainTop from "../../sections/domainWiseSections/DomainTop";
+import aimlimg from "../../assets/images/domainHeroSecImages/aimlimg.png";
+import DomainNav from "../../components/DomainNav";
 
 function AIML() {
   const navItems = [
