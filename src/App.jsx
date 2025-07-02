@@ -1,6 +1,7 @@
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import { Analytics } from "@vercel/analytics/react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
 import Home from "./pages/Home";
@@ -49,6 +50,7 @@ export default function App() {
         {/* Footer */}
         <Footer />
       </div>
+      <Analytics />
     </BrowserRouter>
   );
 }
