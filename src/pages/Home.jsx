@@ -36,10 +36,10 @@ function Home() {
           />
           <div className="flex flex-col md:flex-row justify-center items-center gap-3 w-full md:w-auto">
             <HashLink smooth to="/#domains">
-              <Button text="Browse Resources" />
+              <Button className="px-6" text="Browse Resources" />
             </HashLink>
             <Link to="/Cohorts">
-              <Button text="Explore Cohorts" />
+              <Button className="px-[30px]" text="Explore Cohorts" />
             </Link>
           </div>
         </div>
@@ -59,24 +59,28 @@ function Home() {
             bgColor="bg-[#6D2E46]"
             head="Structured Roadmaps"
             subHead="Step-by-step learning paths tailored to your goals"
+            className="px-4 py-2"
           />
           <Features
             image={spiral}
             bgColor="bg-[#EBA83A]"
             head="Exclusive Resources"
             subHead="Curated materials to deepen your knowledge"
+            className="px-4 py-2"
           />
           <Features
             image={tuition}
             bgColor="bg-[#B23A48]"
             head="Expert Mentorship"
             subHead="Learn from experienced professionals"
+            className="px-4 py-2"
           />
           <Features
             image={learning}
             bgColor="bg-[#3BBA9C]"
             head="Flexible Learning"
             subHead="Learn anytime, anywhere at your pace"
+            className="px-4 py-2"
           />
         </div>
       </div>

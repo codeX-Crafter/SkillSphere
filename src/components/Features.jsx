@@ -1,8 +1,10 @@
 import React from "react";
 
-function Features({ image, bgColor, head, subHead }) {
+function Features({ image, bgColor, head, subHead, className }) {
   return (
-    <div className="w-[280px] sm:w-[300px] flex items-center gap-3 rounded-lg bg-lblue p-2">
+    <div
+      className={`w-[290px] sm:w-[300px] flex items-center gap-3 rounded-lg bg-lblue ${className} `}
+    >
       {/* Icon Circle */}
       <div
         className={`w-[38px] h-[38px] rounded-full flex justify-center items-center ${bgColor}`}

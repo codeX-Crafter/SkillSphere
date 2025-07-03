@@ -23,28 +23,17 @@ export default function Footer() {
             Your one-stop platform for curated learning, expert mentorship, and
             a vibrant community for engineering students. We've got you covered!
           </p>
-          <div>
-            <h3 className="font-semibold mb-2">CONTACT US</h3>
-            <ul className="space-y-1 text-sm">
-              {/* <li>Phone: +91 8448362122</li> */}
-              <a href="mailto:skillsphereee@gmail.com">
-                <li>skillsphereee@gmail.com</li>
-              </a>
-              <li>Rohini, New Delhi - 110085</li>
-            </ul>
-          </div>
         </div>
 
         {/* Section 2 */}
-        <div className="flex flex-col">
-          {/* <h3 className="font-semibold mb-2">OTHER LINKS</h3> */}
+        <div>
+          <h3 className="font-semibold mb-2">CONTACT US</h3>
           <ul className="space-y-1 text-sm">
-            {/* <li>FAQS</li>
-            <li>Events</li>
-            <li>Success stories</li>
-            <li>Privacy Policy</li>
-            <li>Terms & Conditions</li>
-            <li>Contact Us</li> */}
+            {/* <li>Phone: +91 8448362122</li> */}
+            <a href="mailto:skillsphereee@gmail.com">
+              <li>skillsphereee@gmail.com</li>
+            </a>
+            <li>Rohini, New Delhi - 110085</li>
           </ul>
         </div>
 
@@ -69,14 +58,6 @@ export default function Footer() {
             </a>
             {/* <Github /> */}
           </div>
-          <ul className="space-y-1 text-sm">
-            {/* <li>Collaborate with SkillSphere!</li> */}
-            <li>Reach out to us at -</li>
-            <a href="mailto:skillsphereee@gmail.com" className="mt-2">
-              {" "}
-              <li>SkillSphereee@gmail.com</li>
-            </a>
-          </ul>
         </div>
       </div>
 
