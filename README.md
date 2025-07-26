@@ -28,6 +28,3 @@ Optimized for quick load times and ease of navigation.
 
 - **Frontend:** React + Vite + Tailwind CSS
 
-## 🤝 Contributing
-
-We welcome contributions! Feel free to open issues or submit pull requests to help improve SkillSphere.
