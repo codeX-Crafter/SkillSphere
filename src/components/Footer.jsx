@@ -29,7 +29,7 @@ export default function Footer() {
         <div>
           <h3 className="font-semibold mb-2">CONTACT US</h3>
           <ul className="space-y-1 text-sm">
-            {/* <li>Phone: +91 8448362122</li> */}
+      
             <a href="mailto:skillsphereee@gmail.com">
               <li>skillsphereee@gmail.com</li>
             </a>
