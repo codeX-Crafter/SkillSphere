@@ -15,7 +15,7 @@ import AIML from "./pages/domainSpecificPages/AIML";
 import ARVR from "./pages/domainSpecificPages/ARVR";
 import CompetitiveProgramming from "./pages/domainSpecificPages/CompetitiveProgramming";
 import Cybersecurity from "./pages/domainSpecificPages/Cybersecurity";
-// import NotFound from "./pages/NotFound"; // Uncomment if you have a NotFound
+
 
 export default function App() {
   return (
@@ -43,7 +43,7 @@ export default function App() {
               element={<CompetitiveProgramming />}
             />
             <Route path="/Cybersecurity" element={<Cybersecurity />} />
-            {/* <Route path="*" element={<NotFound />} /> */}
+
           </Routes>
         </main>
 
